@@ -1,4 +1,4 @@
-package hashset;
+package ASSIGNMENT1.dequeue.hashset;
 
 import java.util.*;
 

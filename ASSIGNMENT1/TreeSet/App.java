@@ -1,4 +1,6 @@
+package ASSIGNMENT1.TreeSet;
 // 1) Base Class - MediaItem :
+
 // - Create a base class named MediaItem with the following attributes:
 //        - title (string)
 //        - duration (integer - in minutes)

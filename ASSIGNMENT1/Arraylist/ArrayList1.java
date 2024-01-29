@@ -1,4 +1,4 @@
-package Arraylist;
+package ASSIGNMENT1.Arraylist;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,19 +11,18 @@ public class ArrayList1 {
         arr2.add("arr2");
         arr2.add("arr2");
 
-
         List<String[]> list1 = new ArrayList<String[]>();
-        String[] arr3 = {"1", "2", "3"};
-        String[] arr4 = {"1", "2", "3"};
+        String[] arr3 = { "1", "2", "3" };
+        String[] arr4 = { "1", "2", "3" };
         list1.add(arr3);
         list1.add(arr4);
 
-        for (String[] i :list1) {
+        for (String[] i : list1) {
             System.out.println(Arrays.toString(i));
         }
 
-        String[] arr8 = {"a", "b", "c"};
-        String[] arr9 = {"1", "2", "3", "4"};
+        String[] arr8 = { "a", "b", "c" };
+        String[] arr9 = { "1", "2", "3", "4" };
         List<String[]> list = new ArrayList<String[]>();
 
         list.add(arr8);

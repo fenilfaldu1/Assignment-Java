@@ -1,4 +1,4 @@
-package LinkedList;
+package ASSIGNMENT1.LinkedList;
 
 import java.util.*;
 

@@ -1,36 +1,31 @@
-package TreeSet;
+package ASSIGNMENT1.TreeSet;
 
 import java.util.*;
 
-class Employee implements Comparable
-{
+class Employee implements Comparable {
 
     int empId;
     String name;
 
     // getting the name of the employee
-    String getName()
-    {
+    String getName() {
         return this.name;
     }
 
     // setting the name of the employee
-    void setName(String name)
-    {
+    void setName(String name) {
         this.name = name;
     }
 
     // setting the employee id
-// of the employee
-    void setId(int a)
-    {
+    // of the employee
+    void setId(int a) {
         this.empId = a;
     }
 
     // retrieving the employee id of
-// the employee
-    int getId()
-    {
+    // the employee
+    int getId() {
         return this.empId;
     }
 
@@ -40,21 +35,19 @@ class Employee implements Comparable
     }
 }
 
-public class Collections1
-{
+public class Collections1 {
 
     // main method
-    public static void main(String[] args)
-    {
-// creating objects of the class Employee
+    public static void main(String[] args) {
+        // creating objects of the class Employee
         Employee obj1 = new Employee();
 
         Employee obj2 = new Employee();
 
-        TreeSet<Employee> ts =  new TreeSet<Employee>();
+        TreeSet<Employee> ts = new TreeSet<Employee>();
 
-// adding the employee objects to
-// the TreeSet class
+        // adding the employee objects to
+        // the TreeSet class
         ts.add(obj1);
         ts.add(obj2);
 
