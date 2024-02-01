@@ -1,0 +1,37 @@
+Create Multiple classes
+Student:
+Properties: studentId, name, email, contactNumber
+
+Assignment:
+Properties: assignmentId, title, description, dueDate, List<Question>
+Trainer:
+Properties: trainerId, name, email, contactNumber, List<TechStack>
+TechStack:
+Properties: techStackId, name, description
+
+Result:
+Properties: resultId, student, assignment, trainer, score, feedback, submissionDate
+ResultsData:
+Properties: List<Result>
+Methods:
+addResult(Result result)
+getResultsByStudent(Student student)
+
+Question:
+QuestionId, List<Answer>, answerkey, score of Question, techstackid, assignmentid
+Create Getters and Setters along with hashcode and equals implementation.
+Create Dummy Data -
+Create 10 students Objects
+Create 3 trainers
+Create 4 Assignments
+Create 4 questions in each assignment
+Create 5 tech stacks
+Create Results on the above data
+Create ResultData on the above Data
+Create the above classes and calculate the below data in Main
+create a method to Find the highest performing Student by adding all techStack(Subjects) marks and finding percentages.
+create a method to Find the second-highest student by adding all techStack(Subjects) marks/Assignments and finding percentages.
+Create a method to find the overall ranking of students by Scores.
+Get all the Students who need improvements and scored less than 60%.
+Get all the Results of one Student named “Rohan/Prashant“ of all his Assignments and questions scores.
+Get all the students' results and their scores on all the individual assignments and questions.
